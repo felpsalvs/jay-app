@@ -12,6 +12,7 @@ import * as Notifications from 'expo-notifications';
 import { Routes } from "./src/routes";
 import { Loading } from "./src/components/Loading";
 import { useEffect } from "react";
+import React from "react";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
