@@ -12,7 +12,7 @@
     "@expo-google-fonts/inter": "^0.2.2",
     "@react-navigation/native": "^6.1.2",
     "@react-navigation/native-stack": "^6.9.8",
-    "axios": "^1.7.4",
+    "axios": "^1.8.2",
     "clsx": "^1.2.1",
     "dayjs": "^1.11.7",
     "expo": "^52.0.7",
