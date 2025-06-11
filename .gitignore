@@ -9,6 +9,25 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.test.local
+.env.test.development
+.env.test.production
+.env.test.development.local
+.env.test.production.local
+.env.test.development.production
+.env.test.production.production
+.env.test.development.production.local
+.env.test.production.production.local
+
+.cursorrules
+.cursorignore
+.cursor
+
 
 # macOS
 .DS_Store

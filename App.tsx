@@ -30,16 +30,19 @@ export default function App() {
       await Notifications.cancelAllScheduledNotificationsAsync();
     }
 
-    const trigger = new Date(Date.now());
-    trigger.setHours(trigger.getHours() + 5);
-    trigger.setSeconds(0);
+    const triggerDate = new Date(Date.now());
+    triggerDate.setHours(triggerDate.getHours() + 5);
+    triggerDate.setSeconds(0);
 
     await Notifications.scheduleNotificationAsync({
       content: {
         title: "Olá, Pessoa!",
         body: "Você praticou seus hábitos hoje?",
       },
-      trigger,
+      trigger: {
+        type: Notifications.SchedulableTriggerInputTypes.DATE,
+        date: triggerDate,
+      },
     });
   }
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Habit Tracker</string>
+    <string name="widget_description">Widget para rastrear hábitos diários</string>
+    <string name="widget_name">Rastreador de Hábitos</string>
+    <string name="no_habits_configured">Nenhum hábito configurado</string>
+    <string name="configure_habits">Configure seus hábitos no app principal</string>
+    <string name="habits_progress">%1$d/%2$d hábitos</string>
+</resources>
