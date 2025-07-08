@@ -17,11 +17,17 @@ module.exports = (() => {
       }
     }
   };
+
   config.resolver = {
     ...resolver,
     assetExts: resolver.assetExts.filter((ext) => ext !== "svg"),
     sourceExts: [...resolver.sourceExts, "svg"],
+    platforms: ["ios", "android", "native", "web"],
+    unstable_enablePackageExports: false,
   };
+
+  config.resolver.resolverMainFields = ["react-native", "browser", "main"];
+  config.resolver.enableGlobalPackages = true;
 
   return config;
 })();

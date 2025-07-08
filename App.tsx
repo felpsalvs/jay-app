@@ -1,3 +1,4 @@
+import "./patch-turbo-modules";
 import "./src/lib/dayjs";
 import { StatusBar } from "react-native";
 import {
