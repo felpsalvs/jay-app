@@ -140,15 +140,6 @@ O aplicativo utiliza uma estratégia híbrida de persistência:
 - **Android**: 6.0+ (API level 23+)
 - **Widget**: Apenas Android (por enquanto)
 
-## 🚧 Próximas Funcionalidades
-
-- [ ] Widget para iOS
-- [ ] Notificações push
-- [ ] Backup na nuvem
-- [ ] Relatórios semanais/mensais
-- [ ] Compartilhamento de progresso
-- [ ] Temas personalizáveis
-
 ## 🤝 Contribuindo
 
 1. Fork o projeto
